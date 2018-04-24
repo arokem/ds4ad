@@ -245,3 +245,15 @@ rec-1321-org    1994-03-19
 rec-3004-org    1929-04-27
 rec-1384-org    1963-12-25
 Name: date_of_birth, dtype: datetime64[ns]
+
+
+### Exercise: 
+
+Using `apply` calculate a new column that contains the age of each individual in this data 
+at the time that you are doing the exercise. 
+
+*Hint*: If you take the difference (subtraction) between two `datetime` objects, you will get 
+a new object that has the type `timedelta`. These objects hold the difference between the `datetime` objects in days. 
+
+Question: why is calculating the age in *years* error prone (hint: not every year has the same 
+number of days...)? 
